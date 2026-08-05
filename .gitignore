@@ -1,0 +1,21 @@
+# Raw data
+data/raw/*
+!data/raw/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
