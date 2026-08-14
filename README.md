@@ -89,10 +89,11 @@ The temporal evaluation design uses:
 
 - three historical training snapshots,
 - one validation snapshot,
-- one untouched future holdout snapshot.
+- one held-out future snapshot.
 
-The validation period is used for model and threshold selection. The temporal
-holdout is used only once for final evaluation.
+The validation period is used for model and threshold selection. The final
+temporal holdout is evaluated only after the model configuration and threshold
+have been fixed.
 
 ## Customer Segments
 
