@@ -133,7 +133,7 @@ retail-customer-intelligence/
 └── data/
     └── raw/
         └── README.md
-
+```
 
 ## Installation
 
@@ -155,8 +155,6 @@ Then open and run:
 notebooks/retail_customer_intelligence.ipynb
 ```
 
-
-
 ## Limitations
 
 - The dataset covers only approximately two years.
@@ -167,7 +165,6 @@ notebooks/retail_customer_intelligence.ipynb
 - RFM and clustering are descriptive rather than causal.
 - The repeat-purchase rate changes across temporal periods.
 - SHAP explains model behaviour but does not establish causality.
-
 
 ## Author
 
