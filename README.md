@@ -89,10 +89,11 @@ The temporal evaluation design uses:
 
 - three historical training snapshots,
 - one validation snapshot,
-- one untouched future holdout snapshot.
+- one held-out future snapshot.
 
-The validation period is used for model and threshold selection. The temporal
-holdout is used only once for final evaluation.
+The validation period is used for model and threshold selection. The final
+temporal holdout is evaluated only after the model configuration and threshold
+have been fixed.
 
 ## Customer Segments
 
@@ -133,7 +134,7 @@ retail-customer-intelligence/
 └── data/
     └── raw/
         └── README.md
-
+```
 
 ## Installation
 
@@ -155,8 +156,6 @@ Then open and run:
 notebooks/retail_customer_intelligence.ipynb
 ```
 
-
-
 ## Limitations
 
 - The dataset covers only approximately two years.
@@ -167,7 +166,6 @@ notebooks/retail_customer_intelligence.ipynb
 - RFM and clustering are descriptive rather than causal.
 - The repeat-purchase rate changes across temporal periods.
 - SHAP explains model behaviour but does not establish causality.
-
 
 ## Author
 
